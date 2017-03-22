@@ -1,0 +1,26 @@
+# dependencies
+node_modules/
+
+# Web App file for testing components
+build
+www
+web-app
+public
+dist
+docs
+
+# MAC stuff
+*.DS_Store
+
+# Logs and caches
+npm-debug.log
+.sass-cache/
+
+# Visual Studio Code
+.vscode/
+
+# Distribution packages
+*.zip
+
+# IntelliJ
+.idea/

@@ -1,0 +1,30 @@
+{
+  "name": "ng-bolt-template",
+  "title": "ngBoltJS Template",
+  "version": "1.0.0",
+  "description": "Boilerplate template for an ngBoltJS application.",
+  "author": {
+    "name": "Penn State University"
+  },
+  "contributors": [
+    "David Mosemann",
+    "Joe Sharp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ngbolt/ng-bolt-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ngbolt/ng-bolt-template/issues"
+  },
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "ng-bolt": "^2.0.0"
+  },
+  "devDependencies": {
+    "get-gulp-args": "0.0.1",
+    "gulp": "^3.9.1",
+    "gulp-bump": "^2.4.0",
+    "gulp-git": "^1.11.3"
+  }
+}

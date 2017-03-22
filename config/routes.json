@@ -1,0 +1,23 @@
+{
+  "routes": {
+    "login": {
+      "return": "object",
+      "wamp": {
+        "rpc": "f.realm.login",
+        "args": [
+          "username",
+          "password"
+        ],
+        "kargs": []
+      }
+    },
+    "logout": {
+      "return": "text",
+      "wamp": {
+        "rpc": "f.realm.logout",
+        "args": [],
+        "kargs": []
+      }
+    }
+  }
+}

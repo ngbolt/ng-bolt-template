@@ -1,0 +1,16 @@
+{
+  "data": {
+    "protocol": "wamp",
+    "retryDelay": 5000
+  },
+  "auth": {
+    "authService": "DevAuthService"
+  },
+  "servers": {
+    "wamp": {
+      "url": "wss://$local:$port/wss",
+      "realm": "realm"
+    }
+  },
+  "build": {}
+}
